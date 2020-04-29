@@ -1,0 +1,8 @@
+GitHub Repo: https://github.com/openca/openca-base
+这个看起来只是perl对openssl工具封装的web版本，底层还是调用的openssl
+而且只有一个人在维护，文档非常少，不太好用
+
+官方网站
+http://www.openca.org
+
+建议直接研究openssl就行了
