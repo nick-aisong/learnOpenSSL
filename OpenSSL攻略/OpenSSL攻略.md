@@ -292,3 +292,15 @@ openssl rsa -in ./private/server.key -out ./private/server.key
 sed -e 's/[ ]*$//g' temp > sub-ca.conf
 ```
 
+
+
+#### 生成自签名server证书
+
+```
+ openssl genrsa -des3 -out server.key 1024
+ openssl rsa -in server.key -out server.key
+ openssl req -new -key server.key -days 3650 -out server.crt -x509 -subj "/C=CN/ST=SH/L=SH/O=MF/CN=$(hostname)"
+ cp server.crt root.crt
+ chown 1999:1999 server.key server.crt root.crt
+```
+
