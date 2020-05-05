@@ -1,0 +1,5 @@
+《OpenSSL攻略》是《HTTPS权威指南 在服务器和Web应用上部署SSL&TLS和PKI》里节选的免费发布的2个章节
+
+《OpenSSL Cookbook》是《OpenSSL攻略》的英文版，比中文版内容更新一些
+
+电子书在Tom的腾讯网盘里
